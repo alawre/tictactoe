@@ -36,3 +36,8 @@ code {
   display: flex;
   flex-flow: row nowrap;
 }
+
+.square:focus {
+  outline: none;
+  background-color: #222;
+}
