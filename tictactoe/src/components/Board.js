@@ -8,7 +8,7 @@ function Board() {
     )
   }
   return (
-    <div>Board
+    <div className='board'>Board
       <div className='board-row'>
       {renderSquare(0)}{renderSquare(1)}{renderSquare(2)}
       </div>
