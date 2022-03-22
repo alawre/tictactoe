@@ -1,5 +1,8 @@
 body {
-  margin: 0;
+  margin: 20px;
+  color: white;
+  background-color: #444;
+  font-size: 32px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +13,20 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.square {
+  background-color: orange;
+  margin: 10px;
+  padding: 20px;
+}
+.board-row {
+  display: flex;
+  flex-flow: row nowrap;
 }
