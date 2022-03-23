@@ -45,3 +45,8 @@ code {
 .board {
   background-color: #3d7cc4;
 }
+
+.status {
+  margin: 20px;
+  font: 24px;
+}
